@@ -4,3 +4,4 @@ shortener=pyshorteners.Shortener()
 tinyurl=shortener.tinyurl
 short_url=tinyurl.short(url)
 print("Your short url: \n" , short_url)
+print("Your short url: \n" , pyshorteners.Shortener().tinyurl.short(url))
